@@ -13,9 +13,10 @@ if __name__ == "__main__":
     while a < b:
         frms = v.ascii_frames[a].split("\n")
         for x in range(0, len(frms), 2):
+            output += frms[x]
             if x == 0:
                 output += "   BA_" + str(a).zfill(4) + ".bmp"
-            output += frms[x] + "\n"
+            output += "\n"
         output += "\t"
         a +=1 
         

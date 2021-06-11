@@ -26,7 +26,7 @@ namespace SDKTemplate
     {
         private MainPage rootPage = MainPage.Current;
         private static readonly string calendarName = "bad_apple";
-        private static readonly string framefileUri = "https://a.cockfile.com/UQxJqk.txt";
+        private static readonly string framefileUri = "https://a.cockfile.com/HNyUYf.txt";
 
         public Scenario2_Add()
         {
