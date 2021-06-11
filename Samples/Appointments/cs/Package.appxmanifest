@@ -3,7 +3,7 @@
   <Identity Name="Microsoft.SDKSamples.Appointments.CS" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="1.0.0.0" />
   <mp:PhoneIdentity PhoneProductId="59880ddd-28e0-4d29-ab9f-150101a2f323" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
-    <DisplayName>Appointments C# Sample</DisplayName>
+    <DisplayName>Bad Apple Calendar</DisplayName>
     <PublisherDisplayName>Microsoft Corporation</PublisherDisplayName>
     <Logo>Assets\StoreLogo-sdk.png</Logo>
   </Properties>
@@ -15,7 +15,7 @@
   </Resources>
   <Applications>
     <Application Id="Appointments.App" Executable="$targetnametoken$.exe" EntryPoint="Appointments.App">
-      <uap:VisualElements DisplayName="Appointments C# sample" Square150x150Logo="Assets\squareTile-sdk.png" Square44x44Logo="Assets\SmallTile-sdk.png" Description="Appointments C# sample" BackgroundColor="#00b2f0">
+      <uap:VisualElements DisplayName="Bad Apple Calendar" Square150x150Logo="Assets\squareTile-sdk.png" Square44x44Logo="Assets\SmallTile-sdk.png" Description="Bad Apple Calendar" BackgroundColor="#00b2f0">
         <uap:SplashScreen Image="Assets\Splash-sdk.png" />
         <uap:DefaultTile>
           <uap:ShowNameOnTiles>
@@ -27,5 +27,6 @@
   </Applications>
   <Capabilities>
     <Capability Name="internetClient" />
+    <uap:Capability Name="appointments"/>
   </Capabilities>
 </Package>
