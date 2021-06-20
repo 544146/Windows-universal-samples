@@ -8,5 +8,5 @@ Relevant files:
 
 - bad_apple_frames.txt
 - dl_badapple_generate_frames.sh
-- generate_bad_apple_frames
+- generate_bad_apple_frames.py
 - Samples\Appointments\cs\Scenario2_Add.xaml.cs
