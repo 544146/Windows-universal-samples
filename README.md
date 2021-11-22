@@ -1,4 +1,4 @@
-# Bad Apple but it's Windows Calendar in Real Time
+# Bad Apple played on Windows Calendar
 
 https://www.youtube.com/watch?v=D03XKCvfzOk
 
